@@ -1,0 +1,6 @@
+{
+  "name": "Cloud IDE",
+  "description": "Production-ready in-browser VS Code-like Cloud IDE with WebContainer, Monaco Editor, Xterm.js and IndexedDB persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

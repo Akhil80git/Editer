@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "@xterm/xterm/css/xterm.css";
+
+/* Custom scrollbars for VS Code feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4f4f4f;
+}
+
+/* Ensure full height and prevent browser bounce */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #181818;
+  color: #cccccc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  user-select: none;
+}
+
+/* Xterm styling */
+.xterm {
+  padding: 6px;
+  height: 100%;
+}
+.xterm-viewport {
+  background-color: #181818 !important;
+}
